@@ -1,0 +1,119 @@
+/* Basic styling for the body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #eef2f7;
+    padding: 20px;
+}
+
+/* Container for the content */
+#categorySelection,
+#decadeSelection,
+#genreSelection,
+#movieSelection,
+.ui.segment {
+    margin-bottom: 25px;
+    background-color: #ffffff;
+    padding: 22px;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* Radio buttons and labels */
+#categorySelection input[type="radio"],
+#categorySelection label {
+    margin-right: 12px;
+    cursor: pointer;
+    color: #2c3e50; /* Dark blue text color */
+}
+
+/* Select dropdowns */
+select.dropdown {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #d1d8e0;
+    background-color: #f7f9fc;
+}
+
+/* Movie Poster styling */
+#moviePoster img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* Grid columns */
+.ui.grid .column {
+    padding: 12px;
+}
+
+/* Titles */
+h1 {
+    color: #2c3e50;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+/* Overview and cast info */
+#overview,
+#castInfo {
+    margin-top: 22px;
+    color: #666;
+}
+
+/* Styling for the filter container */
+#filterContainer {
+    margin: 25px 0;
+    padding: 12px;
+    background-color: #f7f9fc;
+    border-radius: 6px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.07);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Styling for the search input */
+#searchInput {
+    padding: 12px;
+    border: 1px solid #d1d8e0;
+    border-radius: 6px;
+    flex-grow: 1;
+    margin-right: 12px;
+    font-size: 16px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+#searchInput:focus {
+    border-color: #3498db; /* Bright blue when focused */
+}
+
+/* Styling for the apply button */
+button {
+    padding: 12px 24px;
+    background-color: #3498db;
+    border: none;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Additional color pops */
+#categorySelection {
+    background-color: #f9e79f; /* Light yellow background */
+}
+
+button:hover {
+    background-color: #e74c3c; /* Bright red on hover */
+}
+
+h1 {
+    color: #3498db; /* Bright blue title */
+}
